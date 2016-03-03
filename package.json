@@ -1,9 +1,10 @@
 {
   "scripts": {
-    "test": "mocha"
+    "test": "istanbul cover _mocha"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
+    "istanbul": "^0.4.2",
     "mocha": "^2.4.5",
     "run-sequence": "^1.1.5",
     "yeoman-assert": "^2.1.1"
