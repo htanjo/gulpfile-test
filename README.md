@@ -11,13 +11,13 @@ This means you can easily get the code coverage for the test.
 This approach would be helpful when you create a project starter kit or [Yeoman](http://yeoman.io/) generator.
 
 ## Setup
-```sh
+```
 $ npm install
 ```
 
 ## Run test
 This runs unit test for [`gulpfile.js`](gulpfile.js) and [`subproject/gulpfile.js`](subproject/gulpfile.js) using [Mocha](https://mochajs.org/) and [Istanbul](https://github.com/gotwarlost/istanbul).
-```sh
+```
 $ npm test
 ```
 
