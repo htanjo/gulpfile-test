@@ -16,7 +16,11 @@ describe('gulp', function () {
     });
 
     it('outputs file into "dist" directory', function () {
-      assert.file(['dist/index.html']);
+      assert.file('dist/index.html');
+    });
+
+    it('outputs file with expected content', function () {
+      assert.fileContent('dist/index.html', /gulp/);
     });
   });
 });
