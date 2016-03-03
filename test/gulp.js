@@ -8,7 +8,7 @@ require('../gulpfile');
 
 describe('gulp', function () {
   describe('task "copy"', function () {
-    before(function () {
+    before(function (done) {
       runSequence('copy', function (err) {
         if (err) throw err;
         done();
