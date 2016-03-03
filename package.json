@@ -1,1 +1,11 @@
-{}
+{
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "mocha": "^2.4.5",
+    "run-sequence": "^1.1.5",
+    "yeoman-assert": "^2.1.1"
+  }
+}
